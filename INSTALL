@@ -1,9 +1,9 @@
-Building cloudcoin
+Building CloudCoin
 
-See doc/readme-qt.rst for instructions on building cloudcoin-qt,
+See doc/readme-qt.rst for instructions on building smallchange-qt,
 the intended-for-end-users, nice-graphical-interface, reference
-implementation of cloudcoin.
+implementation of CloudCoin.
 
-See doc/build-*.txt for instructions on building cloudcoin,
+See doc/build-*.txt for instructions on building smallchange,
 the intended-for-services, no-graphical-interface, reference
-implementation of cloudcoin.
+implementation of CloudCoin.

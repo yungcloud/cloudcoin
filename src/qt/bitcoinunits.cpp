@@ -34,9 +34,9 @@ QString BitcoinUnits::name(int unit)
 {
     switch(unit)
     {
-    case BTC: return QString("yng");
-    case mBTC: return QString("myng");
-    case uBTC: return QString::fromUtf8("μyng");
+    case BTC: return QString("YNG");
+    case mBTC: return QString("mYNG");
+    case uBTC: return QString::fromUtf8("μYNG");
     default: return QString("???");
     }
 }
@@ -45,9 +45,9 @@ QString BitcoinUnits::description(int unit)
 {
     switch(unit)
     {
-    case BTC: return QString("cloudcoin");
-    case mBTC: return QString("Milli-cloudcoin (1 / 1,000)");
-    case uBTC: return QString("Micro-cloudcoin (1 / 1,000,000)");
+    case BTC: return QString("CloudCoin");
+    case mBTC: return QString("Milli-CloudCoin (1 / 1,000)");
+    case uBTC: return QString("Micro-CloudCoin (1 / 1,000,000)");
     default: return QString("???");
     }
 }
